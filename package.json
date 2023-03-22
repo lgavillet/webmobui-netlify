@@ -5,9 +5,9 @@
   "private": true,
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel --no-hmr",
-    "build": "parcel build"
-  },
+      "start": "parcel index.html OneSignalSDKWorker.js",
+      "build": "parcel build src/index.html src/OneSignalSDKWorker.js"
+   },
   "keywords": [],
   "author": "",
   "license": "MIT",
